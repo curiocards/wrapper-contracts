@@ -1,0 +1,10 @@
+name: 17b-wrapper
+
+hardhat:
+  port: auto
+  block_number: 15579345
+
+geth:
+  ethereum:
+    mainnet:
+      uri: http://fuzz:48545
