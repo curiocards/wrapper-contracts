@@ -13,6 +13,10 @@ contract AbstractWrapper is ERC1155 {
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
+    function contractURI() public view returns (string memory) {
+        return "ipfs://QmRpixTDqyZpaQbcaZWKaRAuU5pzKTKf5ZwUrgfEjg7kNR";
+    }
+
     // nft id => curio contract address
     mapping (uint256 => address) public contracts;
     // nft id => nft metadata IPFS URI
