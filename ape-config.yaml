@@ -2,7 +2,7 @@ name: 17b-wrapper
 
 hardhat:
   port: auto
-  block_number: 15579345
+  block_number: latest
 
 geth:
   ethereum:
